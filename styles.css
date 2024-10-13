@@ -1,3 +1,19 @@
 .btn-sharp{
     border-radius: 0;
 }
+ul {
+    list-style: none; /* Remove default bullets */
+    padding-left: 0; /* Remove padding */
+}
+li {
+    position: relative; /* Positioning for the check circle */
+    padding-left: 30px; /* Space for the check circle */
+    margin-bottom: 10px; /* Space between list items */
+}
+li::before {
+    content: '✓'; /* Check circle character */
+    position: absolute;
+    left: 0; /* Position it at the start */
+    color: green; /* Color of the check circle */
+    font-weight: bold; /* Make it bold */
+}
