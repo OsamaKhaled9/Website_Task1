@@ -17,3 +17,7 @@ li::before {
     color: green; /* Color of the check circle */
     font-weight: bold; /* Make it bold */
 }
+
+.margin-cust{
+    margin-left: 100px;
+}
