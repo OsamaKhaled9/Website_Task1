@@ -21,3 +21,8 @@ li::before {
 .margin-cust{
     margin-left: 100px;
 }
+.smalltxt{
+    font-size: 9px ;
+
+
+}
