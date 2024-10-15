@@ -29,7 +29,7 @@
         <div class="col-md-6">
             <h1 class="fw-bold">Great design is <br> invisible</h1>
             <p>Lorem ipsum dolor sit amet.</p>
-            <button type="button" class="btn btn-dark btn-sharp" style="color: white">Button</button>
+            <button type="button" class="btn btn-dark btn-sharp btn-lg " style="color: white">Button</button>
         </div>
         <div class="col-md-6 bg-white">
             <img src="images/photo.PNG" alt="Image" class="img-fluid" >
@@ -38,31 +38,45 @@
     <div class="container d-flex justify-content-center align-items-center bg-white mb-1">
         <div class="text-center">
             <h2>Why our clients trust us</h2>
-            <p class="fw-light fs-6">Lorem ipsum dolor sit amet consectetur. Elementum nisl duis tortor sed. Suspendisse lobortis vitae quis vehicula <br>pellentesque sit id. Urna posuere consequat velit vulputate faucibus pretium arcu accumsan sit. Vel venenatis sapien.</p>
+            <p class="fw-light fs-6">Lorem ipsum dolor sit amet consectetur. Elementum nisl duis tortor sed. Suspendisse lobortis vitae quis vehicula pellentesque sit id. Urna posuere consequat velit vulputate faucibus pretium arcu accumsan sit. Vel venenatis sapien.</p>
         </div>
     </div>
     <div class="container d-flex justify-content-center align-items-center bg-white mb-5">
-        <div class="col-md-6 ">
-            <div class="row ">
-                <div class="col-md-8">
-                    <img src="images/photo.PNG" alt="Image" class="img-fluid" style="width: 500px; height: 200px;">
+        <div class="col-md-6" >
+            <div class="row" >
+                <div class="col-md-7">
+                    <img src="images/photo.PNG" alt="Image" class="img-fluid" >
                 </div>
-                <div class="col-md-4 d-flex align-self-end">
-                    <img src="images/photo.PNG" alt="Image" class="img-fluid" style="width: 100%; height: 150px;">
+                <div class="col-md-5 d-flex align-self-end">
+                    <img src="images/photo.PNG" alt="Image" class="img-fluid" >
                 </div>
+                </div>
+                <div class="row justify-content-center">
                 <div class="col-md-6 d-flex margin-cust align-self-center">
-                    <img src="images/photo.PNG" alt="Image" class="img-fluid" style="width: 500px; height: 100px;">
+                    <img src="images/photo.PNG" alt="Image" class="img-fluid" >
                 </div>
             </div>
         </div>
         <div class="col-md-6 p-2">
-            <ul class="fw-light ">
-                <li class="custlist">Lorem ipsum dolor sit amet consectetur. Elementum nisl duis tortor sed.</li>
-                <li class="custlist">Lorem ipsum dolor sit amet consectetur. Elementum nisl duis tortor sed.</li>
-                <li class="custlist">Lorem ipsum dolor sit amet consectetur. Elementum nisl duis tortor sed.</li>
-                <li class="custlist">Lorem ipsum dolor sit amet consectetur. Elementum nisl duis tortor sed.</li>
+            <ul class=" fw-bold text-muted ">
+                <li class="custlist">
+                    <img src="images/check-mark.png" class="img-fluid rounded-circle " alt="immagine">
+                    Lorem ipsum dolor sit amet consectetur. Elementum nisl duis tortor sed.
+                  </li>
+                  <li class="custlist">
+                    <img src="images/check-mark.png" class="img-fluid rounded-circle " alt="immagine">
+                    Lorem ipsum dolor sit amet consectetur. Elementum nisl duis tortor sed.
+                  </li>
+                  <li class="custlist">
+                    <img src="images/check-mark.png" class="img-fluid rounded-circle " alt="immagine">
+                    Lorem ipsum dolor sit amet consectetur. Elementum nisl duis tortor sed.
+                  </li>
+                  <li class="custlist">
+                    <img src="images/check-mark.png" class="img-fluid rounded-circle " alt="immagine">
+                    Lorem ipsum dolor sit amet consectetur. Elementum nisl duis tortor sed.
+                  </li>
             </ul>
-            <button type="button" class="btn btn-dark btn-sharp fw-normal" style="color: white;">Button</button>
+            <button type="button" onclick="handleClick()" class="btn btn-dark btn-sharp fw-normal" style="color: white;">Button</button>
         </div>
     </div>      
     <div class="container d-flex justify-content-center align-items-center bg-light pt-5 ">
@@ -363,18 +377,7 @@
         function handleClick() {
             alert("Button clicked!");
         }
-        const sections = document.querySelectorAll('.section');
-
-    sections.forEach(section => {
-        const title = section.querySelector('.section-title');
-        const content = section.querySelector('.section-content');
-        const button = section.querySelector('.expand-button');
-
-    title.addEventListener('click', () => {
-        content.style.display = content.style.display === 'none' ? 'block' : 'none';
-        button.textContent = content.style.display === 'none' ? '+' : '-';
-  });
-});
+        
     </script>
     
 </body>
