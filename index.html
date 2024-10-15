@@ -32,7 +32,7 @@
             <button type="button" class="btn btn-dark btn-sharp" style="color: white">Button</button>
         </div>
         <div class="col-md-6 bg-white">
-            <img src="images/photo.PNG" alt="Image" class="img-fluid" style="width: 720px; height: 628px;">
+            <img src="images/photo.PNG" alt="Image" class="img-fluid" >
         </div>
     </div>
     <div class="container d-flex justify-content-center align-items-center bg-white mb-1">
@@ -107,16 +107,16 @@
     </div>
     <div class="container d-flex justify-content-center align-self-center bg-white col-md-12 px-5 mb-5 pt-3 ">
         <div class="col-md-3 align-self-center text-center ">
-            <img src="images/Partners.PNG" alt="Logo" class="d-inline-block align-top" style="width: 108px; height: 61px;">
+            <img src="images/Partners.PNG" alt="Logo" class="d-inline-block align-top img-fluid">
         </div>
         <div class="col-md-3 fw-bold align-self-center text-center ">
-            <img src="images/Partners.PNG" alt="Logo" class="d-inline-block align-top" style="width: 108px; height: 61px;">
+            <img src="images/Partners.PNG" alt="Logo" class="d-inline-block align-top img-fluid">
         </div>    
         <div class="col-md-3 fw-bold align-self-center text-center">
-            <img src="images/Partners.PNG" alt="Logo" class="d-inline-block align-top" style="width: 108px; height: 61px;">
+            <img src="images/Partners.PNG" alt="Logo" class="d-inline-block align-top img-fluid">
         </div>
         <div class="col-md-3 fw-bold align-self-center text-center ">
-            <img src="images/Partners.PNG" alt="Logo" class="d-inline-block align-top" style="width: 108px; height: 61px;">
+            <img src="images/Partners.PNG" alt="Logo" class="d-inline-block align-top img-fluid">
         </div>   
     </div>     
     <div class="container d-flex flex-column align-items-center bg-light pt-5 mb-5 px-5">
@@ -127,7 +127,7 @@
         <div class="row row-cols-1 row-cols-md-3 g-4 w-100">
             <div class="col">
                 <div class="card h-100 border-0 shadow-sm">
-                    <img src="images/photo.PNG" class="card-img-top" alt="Image">
+                    <img src="images/photo.PNG" class="img-fluid card-img-top" alt="Image">
                     <div class="card-body d-flex flex-column justify-content-between">
                         <h5 class="card-title custheadtxt">Humans are much more smarter than AI</h5>
                         <p class="card-text">Lorem ipsum dolar sit amet consectetur. Lorem ipsum dolar sit amet consectetur.</p>
@@ -137,7 +137,7 @@
             </div>
             <div class="col">
                 <div class="card h-100 border-0 shadow-sm">
-                    <img src="images/photo.PNG" class="card-img-top" alt="Image">
+                    <img src="images/photo.PNG" class="img-fluid card-img-top" alt="Image">
                     <div class="card-body d-flex flex-column justify-content-between">
                         <h5 class="card-title custheadtxt">Humans are much more smarter than AI</h5>
                         <p class="card-text">Lorem ipsum dolar sit amet consectetur. Lorem ipsum dolar sit amet consectetur.</p>
@@ -147,7 +147,7 @@
             </div>
             <div class="col">
                 <div class="card h-100 border-0 shadow-sm">
-                    <img src="images/photo.PNG" class="card-img-top" alt="Image">
+                    <img src="images/photo.PNG" class="img-fluid card-img-top" alt="Image">
                     <div class="card-body d-flex flex-column justify-content-between">
                         <h5 class="card-title custheadtxt">Humans are much more smarter than AI</h5>
                         <p class="card-text">Lorem ipsum dolar sit amet consectetur. Lorem ipsum dolar sit amet consectetur.</p>
@@ -161,33 +161,87 @@
         </div>
     </div>
     </div>
-    <div class="container d-flex flex-column align-items-center bg-white pt-5 mb-5 px-5">
-        <div class="text-center">
-            <h3>Our Happy clients</h3>
-        </div>
-        <div class="row">
-            <div class="d-flex justify-content-center align-items-center col-1">
-                <button type="button" class="btn btn-light">←</button>
+        <div class="container d-flex flex-column align-items-center bg-white mb-5 px-5">
+            <div class="text-center mb-4">
+                <h3>Our Happy Clients</h3>
             </div>
-            <div class="col-md-5">
-                <div class="card border-0 shadow-sm">
-                    <p class="card-text p-2">Lorem ipsum dolor sit amet consectetur. Condimentum eget vitae ligula sed urna sit sagittis interdum a. Blandit mattis mattis lobortis orci. Facilisis dui sagittis tempor egestas pellentesque eu maecenas. Risus lectus nisl.</p>
-                    <div class="card-body"></div>
-                </div>
-            </div>
-            <div class="col-md-5">
-                <div class="card border-0 shadow-sm">
-                    <p class="card-text p-2">Lorem ipsum dolor sit amet consectetur. Condimentum eget vitae ligula sed urna sit sagittis interdum a. Blandit mattis mattis lobortis orci. Facilisis dui sagittis tempor egestas pellentesque eu maecenas. Risus lectus nisl.</p>
-                    <div class="card-body">
-                        <p>Hi</p>
+            <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="card border-0 shadow-sm mb-3">
+                                    <div class="card-body">
+                                        <p class="card-text fw-light">Lorem ipsum dolor sit amet consectetur. Condimentum eget vitae ligula sed urna sit sagittis interdum a. Blandit mattis mattis lobortis orci.</p>
+                                        <div class="d-flex align-items-center mt-3">
+                                            <img src="images/man.png" alt="Client 1" class="rounded-circle me-3" width="50" height="50">
+                                            <div>
+                                                <p class="fw-bold mb-0">Osama Khaled</p>
+                                                <p class="small text-muted">CEO, Company A</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card border-0 shadow-sm mb-3">
+                                    <div class="card-body">
+                                        <p class="card-text fw-light">Facilisis dui sagittis tempor egestas pellentesque eu maecenas. Risus lectus nisl. Lorem ipsum dolor sit amet consectetur.</p>
+                                        <div class="d-flex align-items-center mt-3">
+                                            <img src="images/woman.png" alt="Client 2" class="rounded-circle me-3" width="50" height="50">
+                                            <div>
+                                                <p class="fw-bold mb-0">Habiba yasser</p>
+                                                <p class="small text-muted">Designer, Studio B</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="card border-0 shadow-sm mb-3">
+                                    <div class="card-body">
+                                        <p class="card-text fw-light">Blandit mattis mattis lobortis orci. Facilisis dui sagittis tempor egestas pellentesque eu maecenas. Risus lectus nisl.</p>
+                                        <div class="d-flex align-items-center mt-3">
+                                            <img src="images/mantwo.png" alt="Client 3" class="rounded-circle me-3" width="50" height="50">
+                                            <div>
+                                                <p class="fw-bold mb-0">Hazem Hammad</p>
+                                                <p class="small text-muted">Manager, Corp C</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card border-0 shadow-sm mb-3">
+                                    <div class="card-body">
+                                        <p class="card-text fw-light">Condimentum eget vitae ligula sed urna sit sagittis interdum a. Lorem ipsum dolor sit amet consectetur.</p>
+                                        <div class="d-flex align-items-center mt-3">
+                                            <img src="images/girl.png" alt="Client 4" class="rounded-circle me-3" width="50" height="50">
+                                            <div>
+                                                <p class="fw-bold mb-0">Emma Watson</p>
+                                                <p class="small text-muted">Developer, Tech D</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="d-flex justify-content-center align-items-center col-1">
-                <button type="button" class="btn btn-light">→</button>
+                <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" ></span>
+                    <span class="fw-bold">Next</span>
+                </button>
             </div>
         </div>
-    </div>
     <div class="container mb-5">
         <div class="row">
             <!-- Image Section -->
@@ -300,6 +354,7 @@
             </div>
         </div>    
     </footer>
+    
     
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
