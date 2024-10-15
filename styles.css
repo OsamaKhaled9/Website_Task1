@@ -32,3 +32,22 @@ ul {
 .custpadding{
     padding-left: 45%;
 }
+
+.section {
+    margin-bottom: 20px;
+  }
+  
+  .section-title {
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  .expand-button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  
+  .section-content {
+    margin-left: 20px; /* Indent content for readability */
+  }
